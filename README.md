@@ -62,21 +62,6 @@ For a no-dataset-evidence comparison, use `USE_DATASET_EVIDENCE=false` with a di
 
 The Qwen pilot and frozen prompt diagnostics are in `qwen_pilot.py`, `qwen_shared_judgment.py`, and `qwen_prompt_comparison.py`; run their `--help` for the required input paths and options in a compatible GPU environment. The Qwen pilot requires existing cached MiniCPM descriptions and seven cached keyframes per case. Research outputs, prompts, metrics, and sampled IDs must be recorded with model versions and data provenance; do not treat development results as untouched evaluation.
 
-## Authors
-
-- Kaipeng Niu<sup>1†</sup> (kaipengniu@whu.edu.cn)
-- Danni Xu<sup>2†</sup> (dannixu@u.nus.edu)
-- Bingjian Yang<sup>1</sup> (yangbingjian@whu.edu.cn)
-- Wenxuan Liu<sup>3</sup> (liuwx66@pku.edu.cn)
-- Zheng Wang<sup>1*</sup> (wangzwhu@whu.edu.cn)
-
-<sup>1</sup> National Engineering Research Center for Multimedia Software, School of Computer Science, Wuhan University, China  
-<sup>2</sup> National University of Singapore, Singapore  
-<sup>3</sup> Peking University, China  
-<sup>†</sup> Equal contribution  
-<sup>*</sup> Corresponding author
-
-
 ## Overview
 
 We present TRUE (Truthfulness and Rationale with Underlying Evidence), a comprehensive video fact-checking dataset that includes detailed annotations for veracity labels, rationales, and supporting evidence. Along with the dataset, we also introduce 3MFact, a multi-role collaboration framework for video fact-checking.
@@ -156,17 +141,3 @@ If you use this dataset or code in your research, please temporarily cite our pa
   year={2025}
 }
 ```
-
-
-
-
-## Contact
-
-For any questions about the dataset or code, please contact:
-- Kaipeng Niu (kaipengniu@whu.edu.cn)
-
-
-
-## License
-
-Our dataset is licensed under the [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). The associated codes are licensed under [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0).
